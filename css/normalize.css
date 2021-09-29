@@ -24,6 +24,40 @@ body {
   margin: 0;
 }
 
+/* Header */
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #e2c2b3;
+}
+
+header img{
+  height: 100px;
+  width: 200px;
+}
+header a{
+  text-decoration: none;
+}
+header a:hover{
+  color: #f7f3f5;
+}
+header a:focus{
+  color:#403234;
+}
+
+nav{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+  color: #687477;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
