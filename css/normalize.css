@@ -61,12 +61,30 @@ a.currentPage {
 /* le footer */
 
 footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
   background-color: #e2c2b3;
   position: absolute;
   bottom: 0;
-  width: 100%;
-  padding-top: 50px;
-  height: 100px;
+  width: 100%; 
+  height: 150px;
+}
+
+#socialink{
+  display: flex;
+  flex-direction: row;
+}
+.logosocial{
+  width: 40px;
+  height: 40px;
+  margin:0 -20px;
+}
+#cgu a{
+text-decoration: none;
+color: #403234;
+font-size: 1.5em;
 }
 /**
  * Render the `main` element consistently in IE.
