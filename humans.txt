@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <name> Serge <role> Développeur du site <twitter>
 
 # THANKS
 

@@ -42,20 +42,19 @@ header img{
 }
 header a{
   text-decoration: none;
+  color: #403234;
 }
 header a:hover{
   color: #f7f3f5;
 }
-header a:focus{
-  color:#403234;
-}
-
 nav{
   width: 70%;
   display: flex;
   justify-content: space-around;
   font-size: 2em;
-  color: #687477;
+}
+a.currentPage {
+  color: #f7f3f5;
 }
 
 /**
