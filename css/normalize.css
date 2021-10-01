@@ -185,6 +185,7 @@ figure{
   display: flex;
   flex-direction: column;
   text-align: left;
+  margin-bottom: 40px;
 }
 .galgrossesse{
   display: grid;
@@ -197,6 +198,56 @@ figure{
 .item:nth-of-type(1n), .item:nth-of-type(2n) {
   grid-row: span 2;
 }
+
+/* galerie nouveau-né */
+#galerieNouveaune{
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.galnouveaune{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px; 
+  align-items: center; 
+  grid-auto-rows: 300px;
+}
+.galnouveaune img{
+  max-width: 90%;
+  box-shadow:2px 5px 5px #403234;
+}
+.item:nth-of-type(1n){
+  grid-row: span 2;
+}
+
+/* galerie bébé */
+#galerieBebe{
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.galbebe{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px; 
+  align-items: center; 
+  grid-auto-rows: 300px;
+}
+.galbebe img{
+  max-width: 90%;
+  box-shadow:2px 5px 5px #403234;
+}
+.item:nth-of-type(1n){
+  grid-row: span 2;
+}
+
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
