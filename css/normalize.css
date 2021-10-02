@@ -101,7 +101,7 @@ main {
   margin: 0;
   position: relative;
 }
-#légende{
+.légende{
   position:absolute ;
   bottom: 20px; right: 50px;
 }
