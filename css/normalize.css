@@ -274,6 +274,26 @@ figure{
   grid-row: span 2;
 }
 
+/* CSS de la page des tarifs */
+
+#tarifs article{
+  margin: 0;
+  width: 100%;
+}
+#troistarifs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  
+}
+#premiertarif, #secondtarif, #troisiemetarif{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 80%;
+}
+
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
