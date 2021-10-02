@@ -343,7 +343,16 @@ figure{
   margin-right: 10px;
 }
 
+/* CSS de la page me contacter*/
+#mecontacter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+#formulaire{
+  width: 90%;
+}
 
 
 
