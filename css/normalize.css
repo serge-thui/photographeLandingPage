@@ -275,7 +275,9 @@ figure{
 }
 
 /* CSS de la page des tarifs */
-
+#tarifs{
+  margin: 40px 0;
+}
 #tarifs article{
   margin: 0;
   width: 100%;
@@ -284,15 +286,34 @@ figure{
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
-  
+  width: 100%;  
 }
+#troistarifs div{
+  margin : 0px 10px;
+}
+#troistarifs figure{
+  margin: 0px 10px;
+}
+#troistarifs img{
+  max-width: 450px;
+  max-height: 300px;
+  padding: 10px;
+  background-color: #000;
+}
+#troistarifs p{
+  max-width: 450px;
+  max-height: 300px;
+}
+
 #premiertarif, #secondtarif, #troisiemetarif{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
   max-width: 80%;
+  padding: 20px 0px;
 }
+
 
 
 /**
