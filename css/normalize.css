@@ -146,10 +146,12 @@ aside figure{
   background-color: #f7f3f5;
 }
 #realisationsTitle{
+  height: 80px;
   width: 100%;
   text-align: center;
   background-color: #f7f3f5;
   margin: 0;
+  line-height: 80px;
 }
 #realisations img{
   max-width: 100%;
