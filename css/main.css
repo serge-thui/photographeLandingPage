@@ -17,6 +17,363 @@ html {
   line-height: 1.4;
 }
 
+/* Header */
+
+header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  justify-content: space-between;
+  margin: 0;
+  background-color: #e2c2b3;
+}
+
+header img{
+  height: 100px;
+  width: 200px;
+}
+header a{
+  text-decoration: none;
+  color: #403234;
+}
+header a:hover{
+  color: #f7f3f5;
+}
+nav{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2em;
+}
+a.currentPage {
+  color: #f7f3f5;
+}
+
+/* le footer */
+
+footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #e2c2b3;
+  bottom: 0;
+  width: 100%; 
+  height: 150px;
+}
+
+#socialink{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logosocial{
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+}
+#cgu a{
+text-decoration: none;
+color: #403234;
+font-size: 1.5em;
+}
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+#photoPrincipale figure{
+  margin: 0;
+  position: relative;
+}
+.légende{
+  position:absolute ;
+  bottom: 20px; right: 50px;
+}
+
+#photoPrincipale img{
+  width: 100%;
+  height: 800px;
+}
+#presentation{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 15%;
+}
+article{
+  width: 30%;
+}
+
+aside figure{
+  position: relative;
+}
+#photodemoi{
+  height: 500px;
+}
+#realisations div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 25%;
+}
+#realisations figure{
+  margin: 0;
+  padding:10px;
+}
+
+#realisations{ 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: #f7f3f5;
+}
+#realisationsTitle{
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  background-color: #f7f3f5;
+  margin: 0;
+  line-height: 80px;
+}
+#realisations img{
+  max-width: 100%;
+}
+
+/** CSS DE LA PAGE DES GALERIES */
+
+#galeries h1 a.galselect{
+  font-size: 1.3em;
+  color: #e2c2b3;
+}
+/* galerie grossesse*/
+#galeries{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:#753f38 ;
+}
+#galeries h1{
+  text-align: center; 
+  box-shadow: 0px 5px 5px #753f38;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+}
+#galeries h1 a{
+  text-decoration: none;
+  color: #403234;
+  font-size: 00.75em;
+
+}
+#galeries h1 a:hover{
+  color: #e2c2b3;
+}
+h2 {
+  text-decoration: underline solid;
+  text-underline-position: under;
+}
+#galeries p{
+  color: #403234;
+}
+
+figure{
+  margin: 0;
+}
+.galgrossesse img{
+  max-width: 90%;
+  box-shadow:2px 5px 5px #403234;
+}
+#galerieGrossesse{
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.galgrossesse{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 30px; 
+  align-items: center; 
+  grid-auto-rows: 300px;
+}
+.item:nth-of-type(1n), .item:nth-of-type(2n) {
+  grid-row: span 2;
+}
+
+/* galerie nouveau-né */
+#galerieNouveaune{
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.galnouveaune{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px; 
+  align-items: center; 
+  grid-auto-rows: 300px;
+}
+.galnouveaune img{
+  max-width: 90%;
+  box-shadow:2px 5px 5px #403234;
+}
+.item:nth-of-type(1n){
+  grid-row: span 2;
+}
+
+/* galeriebébé */
+#galerieBebe{
+  max-width: 80%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 40px;
+}
+.galbebe{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 40px; 
+  align-items: center; 
+  grid-auto-rows: 300px;
+}
+.galbebe img{
+  max-width: 90%;
+  box-shadow:2px 5px 5px #403234;
+}
+.item:nth-of-type(1n){
+  grid-row: span 2;
+}
+
+/* CSS de la page des tarifs */
+#tarifs{
+  margin: 40px 0;
+}
+#tarifs article{
+  margin: 0;
+  width: 100%;
+}
+#troistarifs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;  
+}
+#troistarifs div{
+  margin : 0px 10px;
+}
+#troistarifs figure{
+  margin: 0px 10px;
+}
+#troistarifs img{
+  max-width: 450px;
+  max-height: 300px;
+  padding: 10px;
+  background-color: #000;
+}
+#troistarifs p{
+  max-width: 450px;
+  max-height: 300px;
+}
+
+#premiertarif, #secondtarif, #troisiemetarif{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 80%;
+  padding: 20px 0px;
+}
+
+/* CSS de la page aboutme */
+#surmoi{
+  background-color: #f7f3f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  padding: 40px 200px;
+}
+#surmoi h1{
+  box-shadow: 0px 5px 5px #753f38;
+  padding: 0px 20px;
+}
+#enfants, #studio{
+  max-width: 450px;
+  max-height: 300px;
+  padding: 10px;
+  background-color: #fff;
+  float: right;
+  margin-left: 10px;
+}
+#moi{
+  max-width: 300px;
+  max-height: 450px;
+  padding: 10px;
+  background-color: #fff;
+  float: left;
+  margin-right: 10px;
+}
+
+/* CSS de la page me contacter*/
+#mecontacter{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: #f7f3f5;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+#mecontacter h1{
+  box-shadow: 0px 5px 5px rgb(102, 101, 101);
+  padding:0px 20px;
+}
+
+#formulaire{
+  min-width: 450px;
+  width: 50%;
+  background: #fff;
+  padding: 2%;
+  border-radius: 00.5rem;
+  box-shadow: 5px 5px 5px #000;
+}
+label{
+  display: flex;
+  align-items: center;
+  margin-bottom:0.5rem;
+  padding-top: 10px;
+}
+.form{
+  width: 100%;
+  height: 2.5em;
+  border-radius: 00.5rem;
+  border-width: thin;
+  padding-left: 10px;
+}
+#submit{
+  margin-top: 20px;
+  padding: 10px 30px;
+  background: #e2c2b3;
+  border-radius: 00.5rem;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301

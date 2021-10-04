@@ -214,7 +214,7 @@ figure{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 10px;
-  row-gap: 10px; 
+  row-gap: 30px; 
   align-items: center; 
   grid-auto-rows: 300px;
 }
@@ -246,7 +246,7 @@ figure{
   grid-row: span 2;
 }
 
-/* galerie bébé */
+/* galeriebébé */
 #galerieBebe{
   max-width: 80%;
   display: flex;
@@ -258,7 +258,7 @@ figure{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 10px;
-  row-gap: 10px; 
+  row-gap: 40px; 
   align-items: center; 
   grid-auto-rows: 300px;
 }
