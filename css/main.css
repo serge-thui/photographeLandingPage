@@ -13,7 +13,7 @@
 
 html {
   color: #222;
-  font-size: 1em;
+  font-size: 1.4em;
   line-height: 1.4;
   font-family: 'Ephesis', cursive;
 }
@@ -110,14 +110,14 @@ main {
   padding: 5% 15%;
 }
 article{
-  width: 30%;
+  width: 40%;
 }
 
 aside figure{
   position: relative;
 }
 #photodemoi{
-  height: 500px;
+  height: 40%;
 }
 #realisations div {
   display: flex;
